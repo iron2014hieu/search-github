@@ -1,0 +1,61 @@
+.container-user{
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 5px;
+}
+/* login and link github */
+.container-user .inner-wrap {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start
+}
+.container-user .inner-wrap p{
+    font-weight: 500;
+}
+.container-user .inner-wrap .github-link{
+    color: #cecece;
+    position: relative;
+    top: -16px;
+}
+.container-user .inner-wrap .github-link:hover {
+    color: #40a9ff;
+    text-decoration: none
+}
+/* number count */
+.container-user .index {
+    flex-grow: 1;
+    font-weight: 200;
+    font-style: italic;
+}
+/* avatar  */
+.container-user  .avatar-wrap {
+    flex-grow: 1;
+    
+}
+.container-user  .avatar-wrap img{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+}
+/* button  */
+.container-user .wrap-input{
+    flex-grow: 10;
+    text-align: right;
+}
+.container-user .wrap-input input {
+    background-color:#237bd8;
+    padding: 7px 18px;
+    border: none;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    opacity: .8;
+}
+.container-user .wrap-input input:hover {
+    background-color:#3f85d1;
+    opacity: 1;
+}

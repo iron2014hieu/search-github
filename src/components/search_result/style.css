@@ -1,0 +1,14 @@
+.container-search-result {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    height: 70vh;
+    overflow: auto;
+}
+.container-search-result .count-result {
+    text-align:  start;
+} 
+.container-search-result .no-user-found img{
+    color: #1890ff;
+}
