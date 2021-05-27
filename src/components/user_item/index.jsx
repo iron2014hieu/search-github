@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 function UserItem({ user, index }) {
     const { avatar_url, login, html_url } = user
     return (
@@ -11,7 +12,12 @@ function UserItem({ user, index }) {
                 <a className="github-link" href={html_url}>Github Link</a>
             </div>
             <div className="wrap-input">
-            <input type="button" value="Detail" />
+                <button>
+                    <Link className="link" to={{
+                        pathname: `/detail/${user.login}`,
+                        state: user
+                    }}>Detail</Link>
+                </button>
             </div>
         </div>
     )

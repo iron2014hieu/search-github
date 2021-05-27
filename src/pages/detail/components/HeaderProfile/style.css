@@ -1,0 +1,70 @@
+.container-profile{
+    position: relative;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    width: 60%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    overflow: auto;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    overflow: hidden
+}
+.container-profile .wrap-left-arrow {
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+.container-profile .wrap-left-arrow > .left-arrow {
+    width: 24px;
+    height: 24px;
+    opacity: .5;
+}
+.container-profile .wrap-left-arrow .left-arrow:hover {
+    opacity: 1;
+}
+.container-profile .wrap-profile {
+    display: flex;
+    padding: 5px 0;
+}
+.container-profile .wrap-profile .wrap-img img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.container-profile .wrap-profile .info {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left: 15px;
+    text-align:center;
+    position: relative;
+    bottom: 20px;
+}
+.container-profile .wrap-profile .info p{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: -.45rem;
+    font-size: 15px
+}
+.container-profile .wrap-profile .info .github-a{
+    text-decoration: none;
+    color: rgba(0,0,0,.65);
+}
+.container-profile .wrap-profile .info .github-a:hover {
+    color: #1890ff;
+}
+.container-profile .wrap-profile .info .title {
+    margin: 0 .5rem;
+}
+.container-profile .wrap-profile .info .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}

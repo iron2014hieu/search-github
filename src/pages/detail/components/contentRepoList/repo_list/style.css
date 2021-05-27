@@ -1,0 +1,63 @@
+/* .container-repos {
+} */
+.container-repos .wrap-item {
+    border-bottom: 1px solid #cecece;
+
+}
+
+.container-repos .btn-load {
+    background-color: #1890ff;
+    border: none;
+    padding: 7px 16px;
+    margin: 12px 0px
+}
+
+.container-repos .wrap-item .language {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.container-repos .wrap-item p>.link-repo {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0, 0, 0, .7);
+}
+.container-repos .wrap-item p>.link-repo:hover {
+    color: #1890ff;
+    transition: all 1s;
+}
+.container-repos .wrap-item>.language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-repos .wrap-item>.language>.wrap-language {
+    display: flex;
+    align-items: center;
+}
+
+.container-repos .wrap-item>.language>.wrap-language .language-icon {
+    width: 16px;
+    height: 16px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.container-repos .wrap-item>.language>.wrap-language .language-title {
+    margin-left: 5px;
+    font-weight: 500;
+}
+.container-repos .wrap-item>.language .fork-watchers {
+    display:flex;
+}
+.container-repos .wrap-item>.language .fork-watchers div{
+    margin-right: 15px;
+    display:flex;
+    align-items:center
+}
+.container-repos .wrap-item>.language .fork-watchers div img {
+    margin-right:3px;
+}

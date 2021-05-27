@@ -1,0 +1,32 @@
+.container-detail {
+    width: 100%;
+    padding-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.65);
+}
+
+/* @media (min-width: 1280px) {
+    .container-detail {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-detail {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-detail {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 640px) {
+    .container-detail {
+        max-width: 640px;
+    }
+} */

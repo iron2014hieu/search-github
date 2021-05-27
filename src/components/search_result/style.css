@@ -8,7 +8,17 @@
 }
 .container-search-result .count-result {
     text-align:  start;
+    font-weight: 500;
+    font-size: 14px
 } 
 .container-search-result .no-user-found img{
-    color: #1890ff;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 13px -8px rgba(0,0,0,0.69); 
+    box-shadow: 5px 5px 13px -8px rgba(0,0,0,0.69);
+}
+.container-search-result .no-user-found> p {
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
 }

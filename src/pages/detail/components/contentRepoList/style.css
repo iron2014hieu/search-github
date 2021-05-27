@@ -1,0 +1,19 @@
+.container-repo {
+    position: relative;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    height: 60vh;
+    width: 60%;
+    top: 25px;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 0 15px
+
+}
+.container-repo p {
+    text-align: left;
+    color: #000;
+    font-weight: 500;
+
+}

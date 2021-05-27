@@ -46,8 +46,8 @@
     flex-grow: 10;
     text-align: right;
 }
-.container-user .wrap-input input {
-    background-color:#237bd8;
+.container-user .wrap-input button {
+    background-color:#1980ff;
     padding: 7px 18px;
     border: none;
     color: #FFF;
@@ -55,7 +55,12 @@
     cursor: pointer;
     opacity: .8;
 }
-.container-user .wrap-input input:hover {
-    background-color:#3f85d1;
+.container-user .wrap-input button:hover {
+    background-color:#1980ff;
     opacity: 1;
+}
+
+.container-user .wrap-input button >.link {
+    text-decoration: none;
+    color: #FFF
 }

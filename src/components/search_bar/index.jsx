@@ -26,13 +26,13 @@ function SearchBar({ keyword, handleSearch, setKeyword, clearSearch }) {
                         onKeyUp={(e) => submit(e)}
                         className="form-control"
                         placeholder="Search by name" />
-                    <button className="btn-primary-search">
+                    <button onClick={() => handleSearch(keyword)} className="btn-primary-search">
                         <img width={16} height={16} src={search} alt="search" />
                     </button>
                 </div>
-                <div className="wrap-clear">
+                <div onClick={() => clearLocalStorage()} className="wrap-clear">
                     <img width={16} height={16} src={clear} alt="Clear" />
-                    <span onClick={() => clearLocalStorage()}>Clear</span>
+                    <span >Clear</span>
                 </div>
             </div>
         </div>

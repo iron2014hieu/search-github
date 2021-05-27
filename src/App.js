@@ -16,15 +16,17 @@ function App() {
         <h2>Github User Search</h2>
       </div>
       <Router>
+        
         <Switch>
           {routes.map((route, i) => (
             <Route
               key={i}
               path={route.path}
+              exact ={route.exact}
               render={props => (
                 // pass the sub-routes down to keep nesting
-                <Suspense fallback="loading...">
-                  <route.component {...props} routes={route.routes} />
+                <Suspense fallback="">
+                  <route.component {...props} />
                 </Suspense>
               )}
             />

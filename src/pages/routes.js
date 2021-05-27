@@ -12,7 +12,7 @@ const routes = [
     },
     {
         path: "/detail",
-        exact: true,
+        exact: false,
         public: true,
         component: DetailPage
     }
