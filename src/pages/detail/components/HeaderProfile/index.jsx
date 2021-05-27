@@ -5,6 +5,8 @@ import home from '../../../../assets/icons/home.svg'
 import calendar from '../../../../assets/icons/calendar.svg'
 import Loading from '../../../../components/loading'
 
+import {Link } from 'react-router-dom'
+
 function HeaderProfile({ user, status }) {
     const render =
         (<div className="wrap-profile">
@@ -44,11 +46,11 @@ function HeaderProfile({ user, status }) {
         (<div className="container-profile">
             {status === 'loading' && <Loading />}
             {status === 'success' && render}
-            <a className="wrap-left-arrow" href="/">
+            <Link to='/' className="wrap-left-arrow" href="/">
                 <span className="left-arrow" >
                     <LeftArrow width='24' height='24' />
                 </span>
-            </a>
+            </Link>
         </div>)
 
 

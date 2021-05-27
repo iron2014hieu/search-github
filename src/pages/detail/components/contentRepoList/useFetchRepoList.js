@@ -37,11 +37,6 @@ const reducer = (state, action) => {
                 ...state,
                 status: STATUS.LOAD_ERROR,
             }
-        case TYPE.CLEAR:
-            return {
-                status: STATUS.LOAD_SUCCESS,
-                data: [],
-            }
         default:
             return state;
     }
