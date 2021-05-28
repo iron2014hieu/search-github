@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import SearchBar from '../../components/search_bar'
 import SearchResult from '../../components/search_result'
 import './style.css'

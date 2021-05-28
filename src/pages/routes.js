@@ -14,7 +14,8 @@ const routes = [
         path: "/detail",
         exact: false,
         public: true,
-        component: DetailPage
+        component: DetailPage,
+
     }
 ]
 export default routes

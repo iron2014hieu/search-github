@@ -3,15 +3,13 @@
     box-sizing: border-box;
     border: 0 solid #e2e8f0;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-    width: 60%;
-    padding: 10px 15px;
-    margin-top: 30px;
+    width: 80%;
     overflow: auto;
     height: 170px;
     display: flex;
     align-items: center;
     justify-content:flex-start;
-    overflow: hidden
+    border-radius: 5px;
 }
 .container-profile .wrap-left-arrow {
     position: absolute;
@@ -29,7 +27,7 @@
 }
 .container-profile .wrap-profile {
     display: flex;
-    padding: 5px 0;
+    padding: 5px 0 0 15px;
 }
 .container-profile .wrap-profile .wrap-img img{
     width: 128px;

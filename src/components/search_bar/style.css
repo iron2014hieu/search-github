@@ -1,21 +1,24 @@
 .wrapper-search-bar {
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    box-sizing: border-box;
 }
 .wrapper-search-bar .search-bar {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 60%;
-    padding: 35px 15px;
+    width: 100%;
+    padding: 35px 5px;
     display: flex;
+    border-radius: 5px;
 }
 .wrapper-search-bar .search-bar .from-group {
     display: flex;
     flex-grow: 10;
 }
+
 .wrapper-search-bar .search-bar .from-group .form-control {
     border: 1px solid #DDD;
-    padding:0 10px
+    padding:0 7px
 }
 .wrapper-search-bar .search-bar .from-group .form-control:hover {
     border: 1px solid #40a9ff;
@@ -29,7 +32,7 @@
 .wrapper-search-bar .search-bar .from-group .btn-primary-search {
     background-color: #1890ff;
     border: none;
-    width: 50px;
+    /* width: 50px; */
 }
 .wrapper-search-bar .search-bar .wrap-clear {
     flex-grow: 1;
